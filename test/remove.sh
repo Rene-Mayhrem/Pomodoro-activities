@@ -7,6 +7,6 @@ IMAGE_NAME="test-image"
 #? Stopping the container 
 docker container stop $CONTAINER_NAME
 docker container rm $CONTAINER_NAME
-docker container rmi $IMAGE_NAME
+docker rmi $IMAGE_NAME
 
 echo "DONE"
